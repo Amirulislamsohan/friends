@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        audio {
+            margin: 60px 0 60px 150px;
+            border: 7px solid khaki;
+            border-radius: 35px;
+        }
+
+        h2 {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        span {
+            color: orange;
+        }
+
+        video {
+            width: 500px;
+            text-align: center;
+            margin: 60px 0 60px 250px;
+        }
+
+        iframe {
+            width: 500px;
+            margin: 60px 0 60px 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="audio-video.html">Media</a></li>
+                <li> <a href="tranformation.html">TRASNFORMATION</a></li>
+                <li><a href="transition.html">Transition</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="index.html">Main menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="audio">
+        <h2>Here is a nasheed : <span> liyakum yawmuka.</span></h2>
+        <audio src="factory/liyakum.mp3" controls></audio>
+    </div>
+    <div class="video">
+        <h2>Here is a Video of<span> MOSQUE </span></h2>
+        <video src="factory/mosque.mp4" controls></video>
+    </div>
+    <div>
+        <h2>Here is a Video of<span> Youtube </span></h2>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KdL7LzmErvE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>
